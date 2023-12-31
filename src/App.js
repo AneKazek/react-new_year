@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 import Countdown from "react-countdown";
 
 function App() {
-  const [newYearMessage, setNewYearMessage] = useState(["Bye 2023👋"]);
+  const [newYearMessage, setNewYearMessage] = useState(["Kata Jeki Mah Sayonara 2023👋"]);
 
   const particlesInit = async (preset) => {
     await loadFireworksPreset(preset);
@@ -42,6 +42,7 @@ function App() {
                 "Tahun",
                 "Baru",
                 "✨HNY 2024✨",
+                "Semoga Kerjaan tidak selesai-selesai",
               ])
             }
           />
