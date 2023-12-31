@@ -5,14 +5,14 @@ import { Typewriter } from "react-simple-typewriter";
 import Countdown from "react-countdown";
 
 function App() {
-  const [newYearMessage, setNewYearMessage] = useState(["Kata Jeki Mah Sayonara 2023👋"]);
+  const [newYearMessage, setNewYearMessage] = useState(["Menunggu Lembaran Baru . . ."]);
 
   const particlesInit = async (preset) => {
     await loadFireworksPreset(preset);
   };
 
   const timeLeft = () => {
-    const newYearDate = new Date("January 1, 2024 00:00:00").getTime();
+    const newYearDate = new Date("January 1, 2025 00:00:00").getTime();
     const now = new Date().getTime();
     const difference = newYearDate - now;
     return difference;
